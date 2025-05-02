@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.article-wrapper{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg-img{
+    background-image: url("/src/assets/disability_pride_flag.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+main{
+    position: relative;
+    z-index: 1;
+    padding: 2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    overflow-y: auto;
+    height: 100%;
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "sect1 sect2 sect3"
+    "sect1 sect2 sect3"
+    "sect4 sect5 sect6"
+    "sect4 sect5 sect6"
+    ;
+}
+
+.article-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: header;
+}
+
+.section1{
+    grid-area: sect1;
+    padding: 50px;
+    color: aqua;
+    font-size: 14pt;
+    background-image: linear-gradient(lightblue, blue);
+}
+.section2{
+    grid-area: sect2;
+    padding: 50px;
+    color: yellow;
+    font-weight: bold;
+    background-image: linear-gradient(goldenrod, yellowgreen);
+}
+.section3{
+    grid-area: sect3;
+    padding: 50px;
+    background-image: linear-gradient(silver, black);
+}
+.section4{
+    grid-area: sect4;
+    background-image: linear-gradient(salmon, pink);
+    padding: 50px;
+    color: red;
+}
+.section5{
+    grid-area: sect5;
+    padding: 50px;
+    font-size: 17pt;
+    text-indent: 25px;
+    background-image: linear-gradient(aquamarine, lightgreen);
+    color: green;
+}
+.section6{
+    grid-area: sect6;
+    padding: 50px;
+    background-image: linear-gradient(lightgrey, ghostwhite);
+    color: black;
+}
+
