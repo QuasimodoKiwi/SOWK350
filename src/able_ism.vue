@@ -89,11 +89,20 @@
           As a person on the spectrum, I don't expect everyone to be kind to me, or fully comprehend the social difficulties that I go through.
           After all, we are an imperfect human species, capable of kindness, empathy, kinship, and much more.
           Yet, I find that we all still have growing to do as a species,
-          but society can progress if you pay more attention to your fellow neighbor living their life,
-          and even attempt to befriend them. A disadvantaged person like me would have nothing more than
-          to be able to live comfortably among my peers and live on the same level as them.
+          seeing as the less fortunate are doing everything in their power to live comfortably,
+          yet they are unacknowledged.
+          But I believe that society can improve. Ableism is one of many problems that only society can improve, if we're all on the same page.
         </p>
-        <p>I may have been oppressed</p>
+        <p>
+          I'm not asking for much.
+          But we should take to heart that having connections is part of the way for
+          survival and evolution as a human species.
+        </p>
+        <p>
+          Even if someone looks "crippled" or "slow in the head",
+          we're all human. We acknowledge it, yet we fail to address it
+          when the people in front of us are capable of emotions and extraordinary feats.
+        </p>
       </section>
       <section class="section6">
         <h1>The Aftermath of SOWK350</h1>
@@ -119,8 +128,8 @@
         <p>
           I had a meeting with my advisor who told me that even though I don't want to do Computer Science
           anymore, I would much rather have it as a hobby. This creative project gave me an opportunity to attempt to put the skills I gained
-          from Thaddeus Stevens to use. In a way, the skills I learned in the six years of programming will never fade away,
-          and neither will the stories of the oppressed from our readings will remain with me too and hold dear as I try to unify with more people in the future.
+          from Thaddeus Stevens to use. The skills I learned in the six years of programming will never fade away,
+          and neither will the stories of the oppressed from our readings will remain with me too and hold dear as I have a better grasp on humanity's errors.
         </p>
       </section>
 

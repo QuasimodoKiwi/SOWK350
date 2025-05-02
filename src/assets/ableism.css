@@ -29,7 +29,7 @@
 main{
     position: relative;
     z-index: 1;
-    padding: 2rem;
+    padding: 4.5rem;
     color: white;
     background-color: rgba(0, 0, 0, 0.6);
     overflow-y: auto;
@@ -42,6 +42,8 @@ main{
     "sect4 sect5 sect6"
     "sect4 sect5 sect6"
     ;
+    row-gap: 10px;
+    column-gap: 15px;
 }
 
 .article-title{
@@ -53,34 +55,36 @@ main{
 
 .section1{
     grid-area: sect1;
-    padding: 50px;
     color: aqua;
     font-size: 14pt;
     background-image: linear-gradient(lightblue, blue);
 }
+
+section{
+    padding: 30px;
+    text-indent: 25px;
+    border: 5px solid black;
+}
+
 .section2{
     grid-area: sect2;
-    padding: 50px;
     color: yellow;
     font-weight: bold;
     background-image: linear-gradient(goldenrod, yellowgreen);
 }
 .section3{
     grid-area: sect3;
-    padding: 50px;
     background-image: linear-gradient(silver, black);
 }
 .section4{
     grid-area: sect4;
     background-image: linear-gradient(salmon, pink);
-    padding: 50px;
-    color: red;
+    color: darkred;
 }
 .section5{
     grid-area: sect5;
-    padding: 50px;
     font-size: 17pt;
-    text-indent: 25px;
+
     background-image: linear-gradient(aquamarine, lightgreen);
     color: green;
 }
