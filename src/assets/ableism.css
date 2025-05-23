@@ -46,6 +46,8 @@ main{
     column-gap: 15px;
 }
 
+
+
 .article-title{
     display: flex;
     flex-direction: column;
@@ -56,7 +58,7 @@ main{
 .section1{
     grid-area: sect1;
     color: aqua;
-    font-size: 14pt;
+    font-size: 15pt;
     background-image: linear-gradient(lightblue, blue);
 }
 
@@ -70,12 +72,19 @@ section{
     grid-area: sect2;
     color: yellow;
     font-weight: bold;
+    font-size: 15pt;
     background-image: linear-gradient(goldenrod, yellowgreen);
+}
+img{
+    width: 100px;
 }
 .section3{
     grid-area: sect3;
+    font-size: 16pt;
     background-image: linear-gradient(silver, black);
 }
+
+
 .section4{
     grid-area: sect4;
     background-image: linear-gradient(salmon, pink);
